@@ -7,7 +7,7 @@ const LogoStyled = styled.div`
   align-items: flex-end;
   font-size: 2rem;
   line-height: 1;
-  height: 50%;
+  height: 75%;
   width: 100%;
 `
 

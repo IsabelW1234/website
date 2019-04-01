@@ -14,8 +14,21 @@ import {
   fab,
   faFacebookSquare,
   faTwitterSquare,
+  faLinkedin,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
-import { faPeace, faCoffee, faYinYang } from "@fortawesome/free-solid-svg-icons"
+import {
+  faPeace,
+  faCoffee,
+  faYinYang,
+  faPhone,
+  faEnvelope,
+  faAddressCard,
+  faBirthdayCake,
+  faBuilding,
+  faCommentAlt,
+  faUserAlt,
+} from "@fortawesome/free-solid-svg-icons"
 
 import theme from "../../theme"
 import Container from "../Container"
@@ -25,15 +38,24 @@ import Main from "../Main"
 import Footer from "../Footer"
 import Menu from "../Menu"
 import MenuItem from "../MenuItem"
-import imgLogo from "../../images/logoUA.png"
+import imgLogo from "../../images/LogoIW.png"
 
 library.add(
   fab,
   faCoffee,
   faPeace,
   faYinYang,
+  faPhone,
+  faEnvelope,
+  faAddressCard,
+  faBirthdayCake,
   faTwitterSquare,
-  faFacebookSquare
+  faFacebookSquare,
+  faLinkedin,
+  faInstagram,
+  faBuilding,
+  faCommentAlt,
+  faUserAlt
 )
 
 const Layout = ({ children }) => {
@@ -52,31 +74,47 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={theme}>
       <Container>
         <Header>
-          <Logo to="/" text="Dr. Ulrich Anders" img={imgLogo} />
+          <Logo to="/" text="Isabel Winden" img={imgLogo} />
           <Menu>
             <MenuItem to="/">Home</MenuItem>
-            <MenuItem to="/blog/">Blog</MenuItem>
+            <MenuItem to="/education/">Education</MenuItem>
+            <MenuItem to="/experience/">Experience</MenuItem>
+
+            <MenuItem to="/contact/">Contact</MenuItem>
             <MenuItem to="/resources/">Resources</MenuItem>
-            <MenuItem to="/about/">About</MenuItem>
           </Menu>
         </Header>
         <Main>{children}</Main>
         <Footer>
-          <div>© Dr. Ulrich Anders</div>
-          <Flex width={"3rem"} justifyContent="space-between">
+          <div>© Isabel Winden</div>
+          <Flex width={"5rem"} justifyContent="space-between">
             <a
-              href="https://twitter.com/"
+              href="https://www.linkedin.com/in/isabel-winden-279677105/"
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              <FontAwesomeIcon icon={["fab", "linkedin"]} />
+            </a>
+            <a
+              href="https://www.facebook.com/isabel.winden"
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              <FontAwesomeIcon icon={["fab", "facebook-square"]} />
+            </a>
+            <a
+              href="https://twitter.com/IsabelWinden"
               target="_blank"
               rel="noopener nofollow"
             >
               <FontAwesomeIcon icon={["fab", "twitter-square"]} />
             </a>
             <a
-              href="https://facebook.com/"
+              href="https://www.instagram.com/isabelwinden/?hl=en"
               target="_blank"
               rel="noopener nofollow"
             >
-              <FontAwesomeIcon icon={["fab", "facebook-square"]} />
+              <FontAwesomeIcon icon={["fab", "instagram"]} />
             </a>
           </Flex>
           <Flex flexDirection="column">

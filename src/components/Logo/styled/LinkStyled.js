@@ -8,7 +8,7 @@ const LinkStyled = styled(Link)`
   text-decoration: none;
   vertical-align: middle;
   &:hover {
-    color: #fff;
+    color: coral;
   }
 `
 

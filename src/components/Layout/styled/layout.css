@@ -4,16 +4,21 @@ body {
 
 a {
   text-decoration: none;
-  color: #607D8B;
+  color: #607d8b;
 }
 
 a:hover {
-  color: #78909C;
+  color: #78909c;
 }
 
-h1,
+h1 {
+  color: #696969;
+  font-weight: bold;
+}
 h2,
-h3,
+h3 {
+  color: #2f4f4f;
+}
 h4,
 h5,
 h6 {
@@ -41,4 +46,76 @@ picture {
   width: 100%;
   overflow: hidden;
   margin: 0;
+}
+
+form {
+  margin: 50 auto;
+  width: 540px;
+  padding: 1em;
+  border: 1px solid #2f4f4f;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 500px;
+  box-sizing: border-box;
+  border: 2px solid #2f4f4f;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 15em;
+}
+
+.button {
+  padding-left: 210px;
+  margin-top: 20px;
+}
+
+button {
+  margin-left: 0em;
+  cursor: pointer;
+  background-color: #bdbdbd;
+}
+
+#rechts {
+  float: right;
+  width: 195px;
+  height: 263px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 1px solid grey;
+}
+
+#unten {
+  float: right;
+  width: 195px;
+  height: 263px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#links {
+  float: left;
+  width: 250px;
+  height: 335px;
+  margin-left: 0px;
+  margin-right: 0px;
 }

@@ -4,6 +4,7 @@ import LogoImg from "./styled/LogoImg"
 import LogoText from "./styled/LogoText"
 import LogoStyled from "./styled/LogoStyled"
 import LinkStyled from "./styled/LinkStyled"
+import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"
 
 const Logo = ({ to, img, text, children }) => (
   <LogoStyled>

@@ -20,7 +20,7 @@ class BlogPage extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
         <Section>
-          <H1>Blog</H1>
+          <H1>Professional Career</H1>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (

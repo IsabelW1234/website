@@ -38,7 +38,7 @@ import Main from "../Main"
 import Footer from "../Footer"
 import Menu from "../Menu"
 import MenuItem from "../MenuItem"
-import imgLogo from "../../images/LogoIW.png"
+import imgLogo from "../../images/logoIW.png"
 
 library.add(
   fab,

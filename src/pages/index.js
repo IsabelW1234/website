@@ -38,29 +38,29 @@ const IndexPage = () => (
       </picture>
     </Figure>
     <Section>
-      <H1>Isabel Winden</H1>
-      <H3>Master's Student at the Cologne Business School </H3> <br />
-      <img id="links" src={img} />
-      <P>
-        {" "}
-        <FontAwesomeIcon icon="phone" /> <b> Phone:</b> <br /> +49 176 43283244
-      </P>
-      <P>
-        {" "}
-        <FontAwesomeIcon icon="envelope" />
-        <b> E-Mail:</b> <br /> isabel.winden@gmx.de
-      </P>
-      <P>
-        {" "}
-        <FontAwesomeIcon icon="address-card" />
-        <b> Address:</b> <br /> Lochnerstr. 7 <br /> 50674 Cologne <br />{" "}
-        Germany
-      </P>
-      <P>
-        {" "}
-        <FontAwesomeIcon icon="birthday-cake" />
-        <b> Date of Birth:</b> <br /> May 9th, 1994
-      </P>
+      <div class="boxed" position="static" align="left">
+        <img id="links" src={img} />{" "}
+        <div class="center" position="static" align="centered">
+          <font size="8">
+            <b>Isabel Winden</b>
+          </font>
+          <br />
+          <font size="6">
+            <b>Master's student at CBS</b>
+          </font>
+          <br />
+        </div>
+        <div class="below" position="static" align="centered">
+          <FontAwesomeIcon icon="phone" /> <b> Phone:</b> <br /> +49 123
+          45678910 <br /> <br />
+          <FontAwesomeIcon icon="envelope" />
+          <b> E-Mail:</b> <br /> isabel.winden@gmx.de <br /> <br />{" "}
+          <FontAwesomeIcon icon="address-card" />
+          <b> Address:</b> <br /> Hardefuststr 1 <br /> 50674 Cologne, Germany{" "}
+          <br /> <br /> <FontAwesomeIcon icon="birthday-cake" />
+          <b> Date of Birth:</b> <br /> May 9th, 1994 <br /> <br />{" "}
+        </div>
+      </div>
     </Section>
   </Layout>
 )

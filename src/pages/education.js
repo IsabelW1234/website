@@ -96,7 +96,7 @@ const AboutPage = () => (
     </Section>
 
     <Section>
-      <H3>Gymnasium Kreugasse</H3>
+      <H3>Gymnasium Kreuzgasse</H3>
     </Section>
     <Section>
       <Flex flexWrap="wrap">

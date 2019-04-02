@@ -15,7 +15,10 @@ h1 {
   color: #696969;
   font-weight: bold;
 }
-h2,
+h2 {
+  color: #2f4f4f;
+  font-weight: bold;
+}
 h3 {
   color: #2f4f4f;
 }
@@ -114,8 +117,42 @@ button {
 
 #links {
   float: left;
-  width: 250px;
-  height: 335px;
+  width: 390px;
+  height: 500px;
+  position: absolute;
+  margin-left: 14px;
+  margin-right: 0px;
+  margin-top: -34px;
+}
+
+.boxed {
+  background: transparent;
+  border: 0px solid;
+  box-shadow: 0 0 1px rgbg(0, 0, 0, 0.4);
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.center {
+  text-align: left;
+  background: transparent;
+  line-height: 1;
+  border: 0px solid;
+  margin-left: 475px;
+  margin-top: 40px;
+}
+
+.below {
+  text-align: left;
+  background: transparent;
+  line-height: 1.5;
+  border: 0px solid;
+  margin-left: 475px;
+  margin-top: 20px;
+}
+
+.banner {
+  background-image: url("../images/back.png");
+  height: 100%;
+  width: 100%;
 }

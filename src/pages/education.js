@@ -36,7 +36,7 @@ const AboutPage = () => (
               Analysis, Corporate Governance, Pricing, Sales, Project
               Management, Managerial Accounting, App Development, French,
               Economics <br />
-              <b>Current grade average:</b> 91/100 or 1,5
+              <b>Current grade average:</b> 91/100 or 1.5
             </P>
           </RespGrid>
         </Box>
@@ -51,8 +51,8 @@ const AboutPage = () => (
         <Box width={[1, 1 / 2]} pr={[0, 2]}>
           <RespGrid min={"240px"}>
             <P>
-              09/2014 - 07/2018 <br /> <b>Bachelor of Busines Administration</b>{" "}
-              <br />
+              09/2014 - 07/2018 <br />{" "}
+              <b>Bachelor of Business Administration</b> <br />
               <i>International Business and Management Studies</i>
             </P>
           </RespGrid>

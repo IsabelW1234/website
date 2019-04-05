@@ -79,6 +79,7 @@ const Layout = ({ children }) => {
             <MenuItem to="/">Home</MenuItem>
             <MenuItem to="/education/">Education</MenuItem>
             <MenuItem to="/experience/">Experience</MenuItem>
+            <MenuItem to="/skills/">Skills</MenuItem>
             <MenuItem to="/contact/">Contact</MenuItem>
             <MenuItem to="/resources/">Resources</MenuItem>
           </Menu>

@@ -150,3 +150,63 @@ button {
   margin-left: 475px;
   margin-top: 20px;
 }
+
+.box1 {
+  text-align: center;
+  background-color: #2f4f4f;
+  line-height: 1.5;
+  border: 3px solid #2f4f4f;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-right: 500px;
+}
+
+.box2 {
+  text-align: center;
+  background-color: #2f4f4f;
+  line-height: 1.5;
+  border: 3px solid #2f4f4f;
+  margin-left: 0px;
+  margin-top: 40px;
+  margin-right: 500px;
+}
+
+.box3 {
+  text-align: center;
+  background-color: #2f4f4f;
+  line-height: 1.5;
+  border: 3px solid #2f4f4f;
+  margin-left: 0px;
+  margin-top: 40px;
+  margin-right: 500px;
+}
+
+.box4 {
+  text-align: center;
+  background-color: #2f4f4f;
+  line-height: 1.5;
+  border: 3px solid #2f4f4f;
+  margin-left: 500px;
+  margin-top: -206.5px;
+  margin-right: 0px;
+}
+
+.box5 {
+  text-align: center;
+  background-color: #2f4f4f;
+  line-height: 1.5;
+  border: 3px solid #2f4f4f;
+  margin-left: 500px;
+  margin-top: 40px;
+  margin-right: 0px;
+}
+
+.box6 {
+  text-align: center;
+  background-color: #2f4f4f;
+  line-height: 1.5;
+  border: 3px solid #2f4f4f;
+  margin-left: 500px;
+  margin-top: 40px;
+  margin-right: 0px;
+}

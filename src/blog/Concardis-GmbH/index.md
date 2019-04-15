@@ -4,7 +4,7 @@ date: 2018-06-30
 description: My experience at Concardis GmbH
 ---
 
-![Apple](img/1200/16x9/03.jpg)
+![Phone](img/1200/16x9/Phone.jpg)
 
 After six months of dedication and hard work, I was able to finish my bachelor thesis with the topic: "Apple Pay - risk or opportunity from the viewpoint of an acquirer".
 

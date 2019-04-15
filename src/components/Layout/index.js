@@ -6,7 +6,7 @@ import "./styled/layout.css"
 import { ThemeProvider } from "styled-components"
 import { Flex } from "rebass"
 import "typeface-montserrat"
-import "typeface-dosis"
+import "typeface-ubuntu"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
@@ -28,6 +28,9 @@ import {
   faBuilding,
   faCommentAlt,
   faUserAlt,
+  faUniversity,
+  faGraduationCap,
+  faChalkboardTeacher,
 } from "@fortawesome/free-solid-svg-icons"
 
 import theme from "../../theme"
@@ -55,7 +58,10 @@ library.add(
   faInstagram,
   faBuilding,
   faCommentAlt,
-  faUserAlt
+  faUserAlt,
+  faUniversity,
+  faGraduationCap,
+  faChalkboardTeacher
 )
 
 const Layout = ({ children }) => {

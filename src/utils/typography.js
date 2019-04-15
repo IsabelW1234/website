@@ -4,7 +4,7 @@ const typography = new Typography({
   baseFontSize: "18px",
   baseLineHeight: 1.5,
   headerFontFamily: ["Montserrat", "serif"],
-  bodyFontFamily: ["Dosis", "serif"],
+  bodyFontFamily: ["Ubuntu", "serif"],
 })
 
 // Hot reload typography in development.

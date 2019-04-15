@@ -6,6 +6,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Section from "../components/Section"
 import RespGrid from "../components/RespGrid"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const AboutPage = () => (
   <Layout>
@@ -17,7 +18,10 @@ const AboutPage = () => (
     </Section>
 
     <Section>
-      <H3>Cologne Business School</H3>
+      <H3>
+        <FontAwesomeIcon icon="graduation-cap" />
+        Cologne Business School
+      </H3>
     </Section>
     <Section>
       <Flex flexWrap="wrap">
@@ -36,7 +40,7 @@ const AboutPage = () => (
               Analysis, Corporate Governance, Pricing, Sales, Project
               Management, Managerial Accounting, App Development, French,
               Economics <br />
-              <b>Current grade average:</b> 91/100 or 1.5
+              <b>Current grade average:</b> 92/100 (1.4)
             </P>
           </RespGrid>
         </Box>
@@ -44,7 +48,10 @@ const AboutPage = () => (
     </Section>
 
     <Section>
-      <H3>Arnhem Business School</H3>
+      <H3>
+        <FontAwesomeIcon icon="university" />
+        Arnhem Business School
+      </H3>
     </Section>
     <Section>
       <Flex flexWrap="wrap">
@@ -62,7 +69,7 @@ const AboutPage = () => (
             <P>
               <b>Modules include:</b> Marketing, Management, Finance, Marketing
               Research, Communications, Statistics <br />
-              <b>Final grade:</b> 80/100 or 2.0
+              <b>Final grade:</b> 80/100 (2.0)
             </P>
           </RespGrid>
         </Box>
@@ -88,7 +95,7 @@ const AboutPage = () => (
               <b>Modules include:</b> Fundamentals of Entrepreneurship,
               Compensation Management, New Venture Formation, Human Resource
               Management, Speech Communication to Inform <br />
-              <b>Final grade:</b> 75/100 or 2.3
+              <b>Final grade:</b> 75/100 (2.3)
             </P>
           </RespGrid>
         </Box>
@@ -96,7 +103,10 @@ const AboutPage = () => (
     </Section>
 
     <Section>
-      <H3>Gymnasium Kreuzgasse</H3>
+      <H3>
+        <FontAwesomeIcon icon="chalkboard-teacher" />
+        Gymnasium Kreuzgasse
+      </H3>
     </Section>
     <Section>
       <Flex flexWrap="wrap">

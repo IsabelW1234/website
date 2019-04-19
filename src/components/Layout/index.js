@@ -31,6 +31,8 @@ import {
   faUniversity,
   faGraduationCap,
   faChalkboardTeacher,
+  faPlane,
+  faSchool,
 } from "@fortawesome/free-solid-svg-icons"
 
 import theme from "../../theme"
@@ -61,7 +63,9 @@ library.add(
   faUserAlt,
   faUniversity,
   faGraduationCap,
-  faChalkboardTeacher
+  faChalkboardTeacher,
+  faPlane,
+  faSchool
 )
 
 const Layout = ({ children }) => {

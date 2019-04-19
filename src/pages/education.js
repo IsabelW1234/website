@@ -1,6 +1,9 @@
 import React from "react"
 import { Flex, Box } from "rebass"
 import { H1, H3, P } from "../components/VerticalRhythm"
+import Carousel from "nuka-carousel"
+import { ThemeProvider, BackgroundImage, Heading } from "pcln-design-system"
+import abc from "../images/back.png"
 
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
@@ -12,16 +15,10 @@ const AboutPage = () => (
   <Layout>
     <SEO title="Experience" />
     <Section>
-      <H1 fontSize={[6]} lineHeight={[1.5]}>
-        Education
-      </H1>
+      <H1>Education</H1>
     </Section>
-
     <Section>
-      <H3>
-        <FontAwesomeIcon icon="graduation-cap" />
-        Cologne Business School
-      </H3>
+      <H3>Cologne Business School</H3>
     </Section>
     <Section>
       <Flex flexWrap="wrap">
@@ -48,10 +45,7 @@ const AboutPage = () => (
     </Section>
 
     <Section>
-      <H3>
-        <FontAwesomeIcon icon="university" />
-        Arnhem Business School
-      </H3>
+      <H3>Arnhem Business School</H3>
     </Section>
     <Section>
       <Flex flexWrap="wrap">
@@ -103,10 +97,7 @@ const AboutPage = () => (
     </Section>
 
     <Section>
-      <H3>
-        <FontAwesomeIcon icon="chalkboard-teacher" />
-        Gymnasium Kreuzgasse
-      </H3>
+      <H3>Gymnasium Kreuzgasse</H3>
     </Section>
     <Section>
       <Flex flexWrap="wrap">

@@ -30,6 +30,8 @@
     "gatsby-transformer-remark": "^2.3.1",
     "gatsby-transformer-sharp": "^2.1.15",
     "install": "^0.12.2",
+    "nuka-carousel": "^4.5.3",
+    "pcln-design-system": "^2.0.5",
     "prismjs": "^1.15.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",

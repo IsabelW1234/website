@@ -1,7 +1,7 @@
 ---
 title: Ebner Stolz
 date: 2013-08-31
-description: My experience at Ebner Stolz
+description: My student job at Ebner Stolz
 ---
 
 ![Tax](img/1200/16x9/Tax.jpg)

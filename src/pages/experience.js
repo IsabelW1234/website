@@ -6,13 +6,7 @@ import Layout from "../components/Layout"
 import Section from "../components/Section"
 import SEO from "../components/SEO"
 import { H1, H3, P } from "../components/VerticalRhythm"
-import Carousel from "nuka-carousel"
-import img1 from "../images/10.jpg"
-import img2 from "../images/11.jpg"
-import img3 from "../images/12.jpg"
-import img4 from "../images/13.jpg"
-import img5 from "../images/14.jpg"
-import img6 from "../images/15.jpg"
+import img6 from "../images/img6.png"
 
 class BlogPage extends React.Component {
   render() {
@@ -29,14 +23,9 @@ class BlogPage extends React.Component {
 
         <Section>
           <H1>Professional Career</H1>
-          <Carousel>
-            <img src={img1} />
-            <img src={img4} />
-            <img src={img5} />
-            <img src={img2} />
-            <img src={img6} />
-            <img src={img3} />
-          </Carousel>
+
+          <img src={img6} />
+
           <br />
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug

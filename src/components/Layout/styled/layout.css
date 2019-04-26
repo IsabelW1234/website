@@ -12,15 +12,15 @@ a:hover {
 }
 
 h1 {
-  color: #696969;
+  color: #7b7d7d;
   font-weight: bold;
 }
 h2 {
-  color: #2f4f4f;
+  color: #34495e;
   font-weight: bold;
 }
 h3 {
-  color: #2f4f4f;
+  color: #34495e;
 }
 h4,
 h5,
@@ -117,8 +117,8 @@ button {
 
 #links {
   float: left;
-  width: 370px;
-  height: 500px;
+  width: 340px;
+  height: 460px;
   position: absolute;
   margin-left: 14px;
   margin-right: 0px;
@@ -209,4 +209,10 @@ button {
   margin-left: 500px;
   margin-top: 40px;
   margin-right: 0px;
+}
+
+hr {
+  border-top: 2px solid #873600;
+  margin-top: -50px;
+  margin-right: 475px;
 }

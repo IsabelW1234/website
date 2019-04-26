@@ -16,6 +16,7 @@ const AboutPage = () => (
     <SEO title="Experience" />
     <Section>
       <H1>Education</H1>
+      <hr />
     </Section>
     <Section>
       <H3>Cologne Business School</H3>
@@ -135,7 +136,8 @@ const AboutPage = () => (
           <RespGrid min={"240px"}>
             <P>
               <b>Modules include:</b> Maths, Biology, English, Business Studies
-            </P>
+            </P>{" "}
+            <br />
           </RespGrid>
         </Box>
       </Flex>

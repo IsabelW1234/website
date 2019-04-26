@@ -5,7 +5,7 @@ const MainStyled = styled.main`
   min-height: 700px;
   background: ${theme.bgMain || "#FFFFFF"};
   /* color: #000; */
-  padding-bottom: 3rem;
+  padding-bottom: 0rem;
 `
 
 export default MainStyled

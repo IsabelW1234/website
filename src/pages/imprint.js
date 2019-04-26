@@ -18,9 +18,9 @@ const ImprintPage = () => (
           <P>
             Isabel Winden
             <br />
-            {"<Address>"}
+            Hardefuststr 1 <br /> D-50677 Köln
             <br />
-            {"<Email>"}
+            isabel.winden@cbs-mail.de
           </P>
         </Box>
         <Box>

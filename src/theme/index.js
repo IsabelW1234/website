@@ -1,7 +1,7 @@
 const theme = {
   sectionWidth: "1000px",
-  bgMain: "#E6E6E6",
-  bgHeader: "#2F4F4F",
+  bgMain: "#fdf2e9",
+  bgHeader: "#394f4f",
   breakpoints: ["480px", "800px", "1200px", "1440px"],
   fontSizes: ["1rem", "4.22rem", "2.61rem", "1.61rem", "1rem", "1rem"],
   colors: {

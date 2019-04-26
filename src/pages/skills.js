@@ -21,7 +21,7 @@ const Skills = () => (
       <BackgroundImage image={abc} height={"900px"}>
         <Section>
           <h2>
-            <font size="8" color="#fff">
+            <font size="8" color="#696969">
               <br />
               <b>Skills</b>
             </font>

@@ -91,7 +91,6 @@ const Layout = ({ children }) => {
             <MenuItem to="/experience/">Experience</MenuItem>
             <MenuItem to="/skills/">Skills</MenuItem>
             <MenuItem to="/contact/">Contact</MenuItem>
-            <MenuItem to="/resources/">Resources</MenuItem>
           </Menu>
         </Header>
         <Main>{children}</Main>

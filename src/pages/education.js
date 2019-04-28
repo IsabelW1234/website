@@ -72,6 +72,7 @@ const AboutPage = () => (
     </Section>
 
     <Section>
+      <br />
       <H3>University of Windsor</H3>
     </Section>
     <Section>

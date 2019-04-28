@@ -25,7 +25,6 @@ class BlogPostTemplate extends React.Component {
           </Heading>
           <p>{post.frontmatter.date}</p>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr />
 
           <ul
             style={{

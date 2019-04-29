@@ -11,7 +11,7 @@ const ImprintPage = () => (
   <Layout>
     <SEO title="Imprint" />
     <Section>
-      <H1>Contact Details</H1>
+      <H1>Imprint</H1>
       <RespGrid min={"240px"}>
         <Box>
           <H3>Responsible</H3>

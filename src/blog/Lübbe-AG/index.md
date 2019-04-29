@@ -11,3 +11,12 @@ description: My internship at the Lübbe AG
 Before I started studying in the Netherlands, I decided to do a first internship in the field of Finance and Controlling in order to gain first practical knowledge in my field of interest. Even though I did not have any previous experience in this area, I was able to contribute with determination and hard-work. My initiative was rewarded with being able to attend several business meetings in order to see behind the curtain of the company.
 
 I was responsible for establishing master files for interim statements and maintain already established master files. Furthermore, I supported the team in their monthly reporting as well as analysed key performance numbers.
+
+**Tasks**
+
+- Master Data maintenance in the accounting system SAP
+- Support with monthly reportings
+
+* Selection / Analysis of key figures
+* Account distributions of invoices
+* Accounting transactions and cancellations
